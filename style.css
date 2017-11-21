@@ -54,3 +54,16 @@ html, body{
 	}
 	
 }
+
+@media screen and (max-width: 425px){
+	body {
+	background-image: url("./sun.jpg");
+	font-family: Brush Script MT;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	
+}
+	
+}

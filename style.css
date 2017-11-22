@@ -6,62 +6,49 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-
-#morning { 
-  font:  5em Pacifico, Helvetica, sans-serif;
-  color: #F60E0E;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.9), 7px 7px 0px rgba(0,0,0,0.05);
+.box {
+  background-color: white;
+  color: black;   
 }
 
 
-
-body {
-	background-image: url("http://walldiskpaper.com/wp-content/uploads/2014/10/Sunrise-Wallpaper-Supersun.jpg ");
-	font-family: Brush Script MT;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;	
+img {
+    width: 100%;
+    height: 30%;
+    margin: -7px;	
 }
 
 html, body{
   height: 100%;
   width: auto;
 }
-
-#box {
-	width: 100%;
+.gif{
+	width: 200px;
+	height: 350px;
+	position: absolute;
+	top: 100px; 
+    right: 250px; 
 }
 
-#greeting {
+h1{
 	max-width:960px;
-	position: fixed;
-	top: 28%;
-  left: 58%;
+	position: absolute;
+	font:  5em Pacifico, Helvetica, sans-serif;
+	color: #F569C6;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.9), 5px 5px 0px rgba(0,0,0,0.05);
+    top: 10px; 
+    left: 10px; 
 }
 
 @media screen and (max-width: 1059px){
 	
-	#box{
-	  width: 100%;
-	}
 	#morning{
       font: 3em Pacifico, Helvetica, sans-serif;
-      color: #F60E0E;
-      text-shadow: 5px 5px 5px rgba(0,0,0,0.9), 7px 7px 0px rgba(0,0,0,0.05);
-	}
-	
+   	}
 }
 
 @media screen and (max-width: 425px){
-	body {
-	background-image: url("./sun.jpg");
-	font-family: Brush Script MT;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;	
-}
+	
 
 }
 

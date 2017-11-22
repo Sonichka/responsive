@@ -8,10 +8,9 @@
 
 
 #morning { 
-font: 300 88px/1.5 Pacifico, Helvetica, sans-serif;
+  font:  5em Pacifico, Helvetica, sans-serif;
   color: #F60E0E;
   text-shadow: 5px 5px 5px rgba(0,0,0,0.9), 7px 7px 0px rgba(0,0,0,0.05);
-
 }
 
 
@@ -22,8 +21,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-	
+    background-size: cover;	
 }
 
 html, body{
@@ -36,21 +34,21 @@ html, body{
 }
 
 #greeting {
-	float: right;
+	max-width:960px;
 	position: fixed;
-	top: 29%;
-  left: 55%;
+	top: 28%;
+  left: 58%;
 }
 
 @media screen and (max-width: 1059px){
 	
 	#box{
-		width: 100%;
+	  width: 100%;
 	}
 	#morning{
-		font: 300 50px/1.5 Pacifico, Helvetica, sans-serif;
-  color: #F60E0E;
-  text-shadow: 5px 5px 5px rgba(0,0,0,0.9), 7px 7px 0px rgba(0,0,0,0.05);
+      font: 3em Pacifico, Helvetica, sans-serif;
+      color: #F60E0E;
+      text-shadow: 5px 5px 5px rgba(0,0,0,0.9), 7px 7px 0px rgba(0,0,0,0.05);
 	}
 	
 }
@@ -62,8 +60,11 @@ html, body{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-	
+    background-size: cover;	
 }
-	
+
 }
+
+
+
+

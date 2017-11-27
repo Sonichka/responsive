@@ -7,10 +7,17 @@
 }
 
 .box {
-  background-color: white;
-  color: black;   
+  background-color: green;
+  color: black;  
+  background-image:  url('./cloud.jpg');
 }
 
+.grid { 
+  display: grid;
+  grid-template: 1fr  / 3fr 3fr 3fr;   /*1 row with 3 columns*/
+  grid-gap: 10px;
+  
+}
 
 img {
     width: 100%;
@@ -21,6 +28,7 @@ img {
 html, body{
   height: 100%;
   width: auto;
+  
 }
 .gif{
 	width: 200px;
@@ -33,18 +41,16 @@ html, body{
 h1{
 	max-width:960px;
 	position: absolute;
-	font:  5em Pacifico, Helvetica, sans-serif;
-	color: #F569C6;
-	text-shadow: 3px 3px 3px rgba(0,0,0,0.9), 5px 5px 0px rgba(0,0,0,0.05);
+	font:  6vw Pacifico, Helvetica, sans-serif;
+	color: #ff99cc;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.9), 5px 5px 0px rgba(0,102,0,0.05);
     top: 10px; 
     left: 30px; 
 }
 
 @media screen and (max-width: 1059px){
 	
-	#morning{
-      font: 3em Pacifico, Helvetica, sans-serif;
-   	}
+	
 }
 
 @media screen and (max-width: 425px){

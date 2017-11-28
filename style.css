@@ -16,10 +16,21 @@
   display: grid;
   grid-template: 1fr  / 3fr 3fr 3fr;   /*1 row with 3 columns*/
   grid-gap: 10px;
+  margin: 5px;
   
 }
 
-img {
+.gif{
+	width: 10vw;
+    height: 10vh;
+	position: absolute;
+    left: 70vw;
+	top: 10vh;
+	
+}
+
+
+.header {
     width: 100%;
     height: 30%;
     margin: -7px;	
@@ -30,17 +41,12 @@ html, body{
   width: auto;
   
 }
-.gif{
-	width: 200px;
-	height: 400px;
-	position: absolute;
-	top: 85px; 
-    right: 250px; 
-}
+
+
 
 h1{
 	max-width:960px;
-	position: absolute;
+	position: absolute;	
 	font:  6vw Pacifico, Helvetica, sans-serif;
 	color: #ff99cc;
 	text-shadow: 0.2vw 0.2vw 0.2vw rgba(0,0,0,0.9), 0.5vw 0.5vw 0vw rgba(0,102,0,0.05);

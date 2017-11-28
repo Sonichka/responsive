@@ -8,18 +8,17 @@
 
 .box {
   background-color: green;
-  color: black;  
-  background-image:  url('./cloud.jpg');
+  color: white;  
+  background-image:  url('./fir.jpg');
 }
 
 .grid { 
   display: grid;
-  grid-template: 1fr  / 3fr 3fr 3fr;   /*1 row with 3 columns*/
+  grid-template: 1fr  / 100% ;   /*1 row with 3 columns*/
   grid-gap: 10px;
-  margin: 5px;
+  margin: -2px;
   
 }
-
 
 
 
@@ -33,6 +32,7 @@ html, body{
   height: 100%;
   width: auto;
   background-image: url('./falling.gif');
+  
   
 }
 

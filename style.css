@@ -187,11 +187,21 @@ h2{
 
 .video{
 	 padding-top: 20px;
-  	 width: 57vw;
+  	 width: 100%;
 	 height: 40vh;
 	}	
 	
+ul {
+	
+    list-style-image: url('./bul.png');
+}
+
+	
 @media screen and (max-width: 1059px) {
+	
+	 .h2{
+		 font-size: 3vw;
+	 }
 	
 	 .grid{ 
 		 grid-template: 1fr 1fr  / 100% ;  
@@ -216,6 +226,26 @@ h2{
 		 font-size: 20px;
 		}
 		
+		.slot{
+			font-size: 15px;
+		}
+		
+		.spot{
+			font-size: 12px;
+		}
+		
+		.t1{
+			margin-top: 10px;
+		}
+		
+		.click{
+			font-size: 20px;
+		}
+		
+		.table{
+			font-size: 20px;
+		}
+		
 	 .sidenav {
 		 padding-top: 70px;
 		 width: 110px;
@@ -235,6 +265,8 @@ h2{
 	}
 	 
 	}
+	
+	
 
 @media screen and (max-width: 717px){
 	
@@ -242,6 +274,10 @@ h2{
 	
 	.hid{
 		display:none;
+	}
+	
+	.sug{
+		font-size: 3vw;
 	}
 
 @media screen and (max-width: 600px){
@@ -289,7 +325,11 @@ h2{
 		 margin-left: 35px;
 		 font-size: 35px;
 		 margin-top: 0px;
-		 
+		 		 
+		}
+		
+		.widget{
+			margin-top: 10px;
 		}
 		
 		.a{
@@ -324,6 +364,8 @@ h2{
 		.popuptext {
 	margin-top: -20px;
 	}
+	
+	
 	}
 	
 
